@@ -3,6 +3,7 @@ from flask import Flask
 import psycopg2
 import os
 
+
 app = Flask(__name__)
 password = os.environ['POSTGRES_PASSWORD']
 
